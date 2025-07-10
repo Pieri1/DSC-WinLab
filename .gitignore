@@ -1,0 +1,28 @@
+# Ignorar arquivos ISO grandes
+*.iso
+ISOs/
+
+# Ignorar arquivos temporários e de build
+*.log
+*.bak
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# Ignorar pasta de imagens montadas ou ISO de trabalho
+WIM/
+Mount/
+
+# Ignorar arquivos de cache do PowerShell e do VSCode
+*.ps1xml
+*.pssc
+*.vssettings
+.vscode/
+
+# Ignorar backups ou arquivos gerados localmente
+*.zip
+*.7z
+*.rar
+
+# Ignorar catálogo de imagem gerado pelo Windows SIM
+*.clg
