@@ -91,6 +91,15 @@ This project aims to:
 * [ ] Automatic DSC for CLIENT01 after installation
 ---
 
+## 📂 ISO Files (not included)
+
+This project expects the following ISOs to be available locally:
+
+- `WinServer2022.iso` in `C:\Labs\DSC-WinLab\ISOs`
+- `DC01-Auto.iso` created manually from the original ISO and `autounattend.xml`
+
+Due to GitHub limitations, these files are not included in the repository.
+
 ## 🙋 About
 
 This project was built by [Pieri](https://github.com/Pieri1) as part of a personal study into Windows infrastructure automation and DevOps practices in PowerShell.
